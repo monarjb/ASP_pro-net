@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Webtamrin1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+         
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/SS-mainform.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <style type="text/css">
+        .img {
+            height: 49px;
+            width: 61px;
+        }
+        .image {
+            height: 150px;
+            width: 182px;
+        }
+        .cir-img {
+           
+     height: 82px;
+            width: 97px;
+        }
+        .auto-style1 {
+            color: #FFFFFF;
+            background-color: #66CCFF;
+        }
+        .auto-style2 {
+            background-color: #000000;
+        }
+        .text {
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <form id="form1" runat="server">
+    <div id="main" aria-live="off" dir="ltr">
+       <div id="left">
+     <center> <img class="cir-img" src="img/arm2.jpg" /> </center>
+           <br />
+           ><span class="auto-style1"><strong><span class="auto-style2">شرکت مخابرات ایران&nbsp; منطقه هرمزگان<br />
+     
+           <br />
+           <br />
+           <br />
+           <br />
+           <br />
+           <br />
+           <br />
+           <br />
+           <br />
+
+           
+     
+           </span></strong></span>
+          <div id="menu">
+               <ul>
+                
+              
+                  <li> <a href="webform11.aspx">جستجوی شماره تلفن</a></li>
+                    <li> <a href="webform8.aspx">گزارش عملکرد</a></li>
+                        <li> <a href="webform10.aspx">گزارش </a></li>
+                    <li> <a href="webform6.aspx">تعریف یوزر</a></li>
+                    <li> <a href="wform2.aspx">Login</a></li>
+                    
+               </ul>
+
+           </div>
+          <div id="hr"></div>
+                     <center><h1 style="color:whitesmoke; font-size:x-small;">شماره تماس:33618081 </h1> </center> 
+                     <center><h1 style="color:whitesmoke; font-size:x-small;">تهیه کننده : مونا رجبی فرد  </h1> </center> 
+        
+           <div id="hr2"></div>
+          
+           <center><img src="img/t11.png" style="height: 69px; width: 77px" /></div> </center>
+        
+        <div id="right">
+           
+
+           
+           
+            <asp:Panel ID="ddd" runat="server" BackColor="#fff4e7" Height="2250px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+           
+               </asp:Panel>  
+           
+
+
+
+        </div>
+
+         </div>
+    </form>
+</body>
+</html>

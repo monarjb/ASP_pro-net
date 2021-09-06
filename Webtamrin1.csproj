@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D874ECED-67E9-46CC-B21D-3D66A5B4B5B1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Webtamrin1</RootNamespace>
+    <AssemblyName>Webtamrin1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <ApplicationInsightsResourceId />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Janus.Web.GridEX.v3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=376f63eb748ad132, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\janus web\Janus.Web.GridEX.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\PersianDatePicker.css" />
+    <Content Include="Content\PersianDatePicker.min.css" />
+    <Content Include="createform.aspx" />
+    <Content Include="edit1.aspx" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\123-2.png" />
+    <Content Include="img\1233.jpg" />
+    <Content Include="img\123r.jpg" />
+    <Content Include="img\197_-_GPRS-512.png" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\222.jpg" />
+    <Content Include="img\640ef5b4edf0066906c48e7d682f1de9.jpg" />
+    <Content Include="img\8-512.png" />
+    <Content Include="img\8TAbXEkqc.png" />
+    <Content Include="img\add-icon.png" />
+    <Content Include="img\add.png" />
+    <Content Include="img\arm.jpg" />
+    <Content Include="img\arm2.jpg" />
+    <Content Include="img\arrow down.jpg" />
+    <Content Include="img\arrow-down2.gif" />
+    <Content Include="img\arrow-up.jpg" />
+    <Content Include="img\arrow.jpg" />
+    <Content Include="img\arrowback.jpg" />
+    <Content Include="img\back.png" />
+    <Content Include="img\bg.jpg" />
+    <Content Include="img\cell_tower-512.png" />
+    <Content Include="img\Custom-Icon-Design-Pretty-Office-7-Product-documentation.ico" />
+    <Content Include="img\dadg.jpg" />
+    <Content Include="img\das.png" />
+    <Content Include="img\edittttt.png" />
+    <Content Include="img\exit2.jpg" />
+    <Content Include="img\exiticon.png" />
+    <Content Include="img\flex-slide3.jpg" />
+    <Content Include="img\form-icon4e.png" />
+    <Content Include="img\forms-icon-3.jpg" />
+    <Content Include="img\Forms-Icon1.png" />
+    <Content Include="img\Forms-icon2.png" />
+    <Content Include="img\Generic-male-icon.png" />
+    <Content Include="img\green-check-mark-animation_4joofvox__F0003.png" />
+    <Content Include="img\HAND_MONEY-512.png" />
+    <Content Include="img\images.jpg" />
+    <Content Include="img\images2.png" />
+    <Content Include="img\images3.png" />
+    <Content Include="img\images33.jpg" />
+    <Content Include="img\index.png" />
+    <Content Include="img\jus.jpg" />
+    <Content Include="img\justice-blue-flat-icon-law-sign.jpg" />
+    <Content Include="img\kalle.png" />
+    <Content Include="img\kartabl.jpg" />
+    <Content Include="img\ppp.jpg" />
+    <Content Include="img\Print.png" />
+    <Content Include="img\question-answer-icon-18.png" />
+    <Content Include="img\refresh.png" />
+    <Content Include="img\report-icon-14.png" />
+    <Content Include="img\report2.png" />
+    <Content Include="img\search.jpg" />
+    <Content Include="img\search1.jpg" />
+    <Content Include="img\SIP-TRUNK.jpg" />
+    <Content Include="img\SIP_Icon-350x230.png" />
+    <Content Include="img\ssip_icon.png" />
+    <Content Include="img\t11.jpg" />
+    <Content Include="img\t11.png" />
+    <Content Include="img\tele.png" />
+    <Content Include="img\telecommunication_fraud_689711.png" />
+    <Content Include="img\telephone-1831922.png" />
+    <Content Include="img\user.jpg" />
+    <Content Include="img\usermoney.jpg" />
+    <Content Include="karbari.aspx" />
+    <Content Include="kartabl.aspx" />
+    <Content Include="kartabl4.aspx" />
+    <Content Include="kartablrep1.aspx" />
+    <Content Include="kartablrep2.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="Scripts\PersianDatePicker.js" />
+    <Content Include="Scripts\PersianDatePicker.min.js" />
+    <Content Include="img\2.webp" />
+    <None Include="Service References\ServiceReference1\v2.disco" />
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Styles\ss_wf3.css" />
+    <Content Include="Styles\m-ss.css" />
+    <Content Include="Styles\SS-mainform.css" />
+    <Content Include="Styles\ss1.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebApplication1.csproj" />
+    <Content Include="WebApplication1.csproj.user" />
+    <Content Include="WebForm13.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="createform.aspx.cs">
+      <DependentUpon>createform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createform.aspx.designer.cs">
+      <DependentUpon>createform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="edit1.aspx.cs">
+      <DependentUpon>edit1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edit1.aspx.designer.cs">
+      <DependentUpon>edit1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="karbari.aspx.cs">
+      <DependentUpon>karbari.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="karbari.aspx.designer.cs">
+      <DependentUpon>karbari.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kartabl.aspx.cs">
+      <DependentUpon>kartabl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kartabl.aspx.designer.cs">
+      <DependentUpon>kartabl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kartabl4.aspx.cs">
+      <DependentUpon>kartabl4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kartabl4.aspx.designer.cs">
+      <DependentUpon>kartabl4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kartablrep1.aspx.cs">
+      <DependentUpon>kartablrep1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kartablrep1.aspx.designer.cs">
+      <DependentUpon>kartablrep1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kartablrep2.aspx.cs">
+      <DependentUpon>kartablrep2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kartablrep2.aspx.designer.cs">
+      <DependentUpon>kartablrep2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestHandler.cs" />
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UrlGenerator.cs" />
+    <Compile Include="WebForm13.aspx.cs">
+      <DependentUpon>WebForm13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm13.aspx.designer.cs">
+      <DependentUpon>WebForm13.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+    <Content Include="img\3.psd" />
+    <None Include="Service References\ServiceReference1\v2.wsdl" />
+    <Content Include="Service References\ServiceReference1\Webtamrin1.ServiceReference1.ArrayOfInt.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceReference1\Webtamrin1.ServiceReference1.ArrayOfLong.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceReference1\Webtamrin1.ServiceReference1.Messages.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceReference1\Webtamrin1.ServiceReference1.News.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceReference1\Webtamrin1.ServiceReference1.RequestInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10714</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10714/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
